@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon backend/index.js",
     "start": "cross-env NODE_ENV=production node backend/index.js",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "preview": "vite preview --prefix frontend --port 5173 --host"
   },
   "author": "",
   "type": "module",
@@ -14,7 +15,6 @@
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
-    "crypto": "^1.0.1",
     "dotenv": "^16.4.7",
     "express": "^5.1.0",
     "jimp": "^0.22.10",
