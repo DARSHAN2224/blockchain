@@ -1,6 +1,6 @@
 import crypto from 'crypto';
-import dotenv from 'dotenv';
-dotenv.config();
+// import dotenv from 'dotenv';
+// dotenv.config();
 const algorithm = 'aes-256-cbc';
 const secretKey = crypto
   .createHash('sha256') // convert string to 32-byte key
