@@ -58,7 +58,7 @@ A full-stack decentralized application (dApp) that **encrypts user data**, embed
 📥 Installation
 
 ```bash
-git clone https://github.com/your-username/blockchain-image-storage.git
+git clone https://github.com/DARSHAN2224/blockchain.git
 cd blockchain-image-storage
 ```
 
